@@ -11,7 +11,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "hellen"
+  - git config user.name "HLHellen"
   - git config user.email "1033651542@qq.com"
   - git add .
   - git commit -a -m "Auto update docs by Travis CI."
